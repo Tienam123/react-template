@@ -1,26 +1,24 @@
 import './Sidebar.css';
+import { Link } from 'react-router-dom';
 
 function Sidebar(){
     return(
         <div className="Sidebar">
             <nav>
-                <ul>
-                    <li>
-                        <a href="/statehooks">Built-in React Hooks</a>
-                    </li>
-                    <li>
-                        <a href="/community">Community</a>
-                    </li>
-                    <li> 
-                        <a href="/resources">Resources</a>
-                    </li>   
-                    <li>
-                        <a href="/about">About</a>
-                    </li>
-                    <li>
-                        <a href="/users">Users</a>
-                    </li>
-                </ul>
+              <ul>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/community">Community</Link>
+                </li>
+                <li>
+                  <Link to="/resources">Resources</Link>
+                </li>
+                <li>
+                  <Link to="/about">About</Link>
+                </li>
+              </ul>
             </nav>
         </div>
     );

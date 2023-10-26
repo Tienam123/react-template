@@ -1,6 +1,7 @@
+/* Default imports */
 import './Main.css';
 
-
+// Code
 function About(){
     return(
         <div className="Main">

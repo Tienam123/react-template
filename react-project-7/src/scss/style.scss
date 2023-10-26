@@ -129,7 +129,17 @@ body {
 
 // Подключение стилей общих элементов проекта
 @import "common";
-
+#root {
+	display: grid;
+	grid-template-areas:
+"head head head"
+	"sidebar main main "
+	"foot foot foot"
+;
+}
+li a.active {
+	color:purple;
+}
 // Подключение стилей отдельных блоков
 
 // Подключение стилей отдельных страниц
