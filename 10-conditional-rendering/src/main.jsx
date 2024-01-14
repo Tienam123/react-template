@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './scss/style.scss';
-import MyComponent from './components/MyComponent.jsx';
-import OtherComponent from './components/OtherComponent.jsx';
+import PetInfo from './components/PetInfo.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <>
-      <MyComponent />
-      <OtherComponent/>
+    <PetInfo hasPet age={10} animal={'Cat'}/>
+    <PetInfo hasPet={false} age={20} animal={'Dog'}/>
     </>
   </React.StrictMode>
 );
-
