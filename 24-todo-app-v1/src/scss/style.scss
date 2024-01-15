@@ -4,19 +4,21 @@
 }
 
 body {
-  color: #fff;
+  padding: 50px;
   text-align: center;
+  color: #fff;
   font-family: "Segoe UI", "Roboto Light","CaskaydiaCove NF";
   background-color: #112d49;
 }
 button {
   padding: 10px 20px;
-  font-size: 20px;
-  border-radius: 5px;
-  margin: 20px;
-  border: 0;
 }
-h1  {
-  font-size: 90px;
-  margin-top: 20px;
+input {
+  padding: 10px 20px;
+}
+input:focus-within {
+  outline: none;
+}
+h1 {
+  margin-bottom: 50px;
 }
